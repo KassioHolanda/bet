@@ -19,5 +19,5 @@ from core.views import *
 
 urlpatterns = [
     path('admin/', admin.site.urls),
-    path('sports/', get_sports, name='sports-list'),
+    path('sports/', get_list_sports, name='sports-list'),
 ]
